@@ -9,14 +9,9 @@ function App() {
    <>
    <Router>
     <Routes>
-
       <Route path="/" element={<Index />} />
       <Route path="/login" element={<Login />} />
       <Route path="/user" element={<User />} />
-
-
-
-
     </Routes>
    </Router>
 
